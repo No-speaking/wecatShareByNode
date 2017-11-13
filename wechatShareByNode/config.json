@@ -1,0 +1,11 @@
+{
+    "token":"wechat",
+    "appID":"wx97e2150844710a72",
+    "appScrect":"70a8fb3a5daee7628709a32bdd1341f0",
+    "encodingAESKey":"afPsLj0rV0yGBtZRyWpGWTGFgsrvI40XBCZrnwUURFk",
+    "apiDomain":"https://api.weixin.qq.com/",
+    "apiURL":{
+        "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+        "jsapi_ticket":"%scgi-bin/ticket/getticket?type=jsapi&access_token=%s"
+    }
+}
